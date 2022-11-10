@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+Host: green-yar.ru
+Sitemap: http://green-yar.ru/sitemap.xml
