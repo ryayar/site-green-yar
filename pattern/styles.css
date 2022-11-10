@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0; outline: 0; border: 0}
+html
+{
+background: #f2efe6;
+background: -webkit-linear-gradient(left, #f2efe6, #18a21b, #18a21b, #f2efe6); 
+background: -moz-linear-gradient(left, #f2efe6, #18a21b, #18a21b, #f2efe6);
+background: -o-linear-gradient(left, #f2efe6, #18a21b, #18a21b, #f2efe6); 
+background: -ms-linear-gradient(left, #f2efe6, #18a21b, #18a21b, #f2efe6);
+}
+body {background: #fff; width: 975px; margin: 0 auto; font: 13px Arial, sans-serif; color: #333; /*background-color: #fff; */box-shadow: 0 0 30px #999}
+
+a {color: #268f26}
+a:hover {text-decoration: none}
+p {margin-bottom: 10px}
+h1 {margin-bottom: 10px; font-size: 22px; font-family: 'Palatino Linotype'}
+h2 {margin: 20px 0 5px; font-size: 18px; text-align: center; font-family: 'Palatino Linotype'}
+/*h3 {margin:  0 5px;  text-align: center; font-family: 'Palatino Linotype'}*/
+table {width: 100%; border: solid black 1px; border-bottom: none}
+table th {padding: 3px 0; width: 400px; background: #eee; font-family: 'Palatino Linotype'; border-right: 1px solid black}
+table td {padding: 2px 0 5px 2px; border-bottom: solid black 1px; border-right: solid black 1px}
+table.newyear{background: url(/pattern/images/snow.jpg) no-repeat; font-weight: bold}
+.orange, .orange td, .orange th {border: 1px solid orange}
+p.new_year_back {background: url(/pattern/images/snow.jpg) no-repeat; font-size: 14px}
+span.hol{color: #916646}
+.colortext {color: #ffa500; font-size: 15px; font-style: italic; font-style: bold;}
+a.previous {background: url(/pattern/images/icon-previous.png) no-repeat; padding-left: 21px}
+
+.sign {font-family: 'Palatino Linotype'; font-size:20px; text-decoration: none;}
+
+#enter {/* position: absolute; top: 15px; right: 15px; */height: 5px; float: right;  margin: 5px 5px 0 5px; padding: 2px 5px 0; z-index: 20}
+.auth {position: absolute; top: 10px; left: 815px}
+.auth{display: none}
+.all_news {float: left}
+
+#logo {float: left; margin: 10px 0 15px 10px}
+#marquee_container {position: relative; width: 750px; height: 42px}
+#marquee, #marquee a {color: #0026ff; white-space: nowrap; line-height: 65px; font-size: 15px; font-style: italic}
+
+/* Scroller Box */
+
+/* Scoller Box */
+
+#menu {float: right; margin: 15px 0 15px}
+#menu a, #menu span {color: #289925; font-size: 17px; padding: 5px; margin: 0 6px}
+
+#promo {clear: left; margin-bottom: 25px}
+#collage {clear: left}
+#collage img {float: left; margin: 0 3px 23px 0}
+#collage img.last {float: left; margin-right: 0}
+
+#sidebar {float: left; background: #f2efe6 url(/pattern/images/shadow.png) no-repeat 0 100%; padding: 10px; color: #999; width: 200px; margin: 0 0 13px 10px}
+#sidebar a {float: right}
+#sidebar.invisible {display: none}
+#holiday{background: url(/pattern/images/list1.jpg) no-repeat; font-weight: bold}
+#content {float: right; width: 700px; margin: 0 10px 20px 0}
+#content.invisible {width: 975px; position: relative; left: 10px}
+#content.invisible div {overflow: hidden; width: 150px; height: 150px; float: left; margin: 0 0 11px 11px}
+#content.invisible div img {margin: -5px 0 0 -5px}
+#dop_service {height: 80px; background: url(/pattern/images/snow.jpg) no-repeat; font-weight: bold;  text-align: center; padding-top: 1px; margin-top: 77px}
+
+span.add_h {color: #000}
+span.add_p {font-size: 11px; color: #999}
+span.response_head {font-size: 14px; font-weight: bold}
+span.update {background: url(/pattern/images/icon-update.png) no-repeat; padding-left: 21px; color: #2b89c3; cursor: pointer}
+span.update span {border-bottom: 1px dotted #2b89c3}
+
+
+input, textarea {color: #999; background-color: #fafafa; font: 14px Arial, sans-serif; border: 1px solid #ccc; padding: 3px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px}
+input.asterix:focus, textarea.asterix:focus, input.asterix:hover, textarea.asterix:hover {border: 1px solid #00c000}
+span.response_head {font-size: 14px; font-weight: bold}
+span.response_form_show {float: right; background: url(/pattern/images/icon-response-add.png) no-repeat; padding-left: 21px; color: #2b89c3; cursor: pointer}
+span.response_form_show span {border-bottom: 1px dotted #2b89c3}
+p.asterix, span.asterix {color: #f00}
+hr {border-bottom: 1px dotted #222; clear: left; margin-bottom: 20px}
+input.asterix, textarea.asterix {border: 1px solid #f00}
+.add_response {background: url(/pattern/images/button.png); margin: 0 20px 20px 0; border: 1px solid #999; padding: 3px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px}
+.add_response:hover {background: url(/pattern/images/button-hover.png); border: 1px solid #999; cursor:pointer; padding: 3px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px}
+.add_response:focus {border: 1px solid #ccc}
+
+.price-in-1-people {font-size: 10px; color: #289925; margin-top: 15px}
+
+#skid {text-align: center; font-size: 25px; font-weight: bold; padding-right: 50px; color: #ffa500; border: 2px solid; margin-top: 56px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px }
+#skid-save {padding-left: 50px; font-family: 'Palatino Linotype'}
+
+#footer {clear: both; border-top: 1px solid #268f26; padding: 10px}
+
+#dnddiv {position: relative; border: 2px red dashed; overflow: hidden; width: 100%; text-align: center; height:200px;padding: 25px 0}
+#dndinput {opacity: 0; filter:alpha(opacity=0); position: absolute; top: -5px; left: -5px; font-size: 300px}
+
+#cms {padding: 0 20px}
+#cms a.main {color: #222; font-size: 20px; height: 28px; padding: 4px 5px 0 37px; float: left}
+#cms h1 {color: #222; font-size: 20px; height: 28px; padding: 4px 5px 0 37px; margin: 20px 0}
+#cms h2.h1 {color: #ccc; font-size: 20px; height: 28px; padding: 4px 5px 0 37px; margin: 0}
+
+
+
+
+
+
+
+
+
+
